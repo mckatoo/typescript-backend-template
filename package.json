@@ -1,0 +1,23 @@
+{
+  "name": "typescript-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/src/main.js",
+    "typecheck": "tsc --noEmit",
+    "build": "rimraf dist && tsc",
+    "dev": "tsx --watch src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "dotenv": "^16.1.4",
+    "rimraf": "^5.0.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.3"
+  }
+}
