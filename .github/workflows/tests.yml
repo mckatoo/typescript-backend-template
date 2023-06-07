@@ -10,7 +10,7 @@ jobs:
   unit_tests:
     runs-on: ubuntu-latest
     env:
-      HOSTNAME: localhost
+      HOST_NAME: localhost
       PORT: 8080
     strategy:
       matrix:
