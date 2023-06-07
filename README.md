@@ -28,6 +28,8 @@ Certifique-se de ter as seguintes dependências instaladas em sua máquina:
 
 ## Como usar
 
+### Clonando diretamente em seu computador
+
 1. Clone este repositório em sua máquina local usando o seguinte comando:
 
     ```shell
@@ -50,11 +52,11 @@ Certifique-se de ter as seguintes dependências instaladas em sua máquina:
 
 5. Para compilar seu projeto TypeScript, execute o seguinte comando:
 
-    ```shell
-    npm run build
-    ```
+   ```shell
+   npm run build
+   ```
 
-   Isso irá compilar o código TypeScript e gerar os arquivos JavaScript no diretório dist.
+    Isso irá compilar o código TypeScript e gerar os arquivos JavaScript no diretório dist.
 
 6. Após a compilação, você pode executar o projeto usando o seguinte comando:
 
@@ -62,7 +64,19 @@ Certifique-se de ter as seguintes dependências instaladas em sua máquina:
     npm start
     ```
 
-    Isso irá executar o arquivo JavaScript principal (geralmente chamado index.js ou main.js) no diretório dist.
+   Isso irá executar o arquivo JavaScript principal (main.js) no diretório dist.
+
+### Criando seu repositório
+
+1. Click [![https://img.shields.io/badge/-AQUI-blue](https://img.shields.io/badge/-AQUI-blue)](https://github.com/mckatoo/typescript-backend-template/generate) para iniciar seu repositório a partir deste template.
+
+2. Clone o repositório recém criado em sua máquina local usando o seguinte comando:
+
+    ```shell
+    git clone https://github.com/suaconta/seurepocriado.git
+    ```
+
+3. Continue a partir do [passo 2](#clonando-diretamente-em-seu-computador) do item anterior.
 
 ## Atualização do Workflow
 
