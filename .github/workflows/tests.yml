@@ -32,8 +32,8 @@ jobs:
       - name: Typecheck
         run: npm run typecheck
 
-      # - name: Test
-      #   run: npx vitest run
+      - name: Test
+        run: npx vitest run
 
   #     - name: Send mail when fail type check or UNIT tests
   #       if: ${{ failure() }}
