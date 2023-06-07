@@ -1,5 +1,7 @@
 # TypeScript Template
 
+[![Tests](https://github.com/mckatoo/typescript-backend-template/actions/workflows/tests.yml/badge.svg)](https://github.com/mckatoo/typescript-backend-template/actions/workflows/tests.yml)
+
 Este é um template básico para iniciar projetos usando TypeScript. Ele fornece uma estrutura inicial para criar aplicativos e bibliotecas usando TypeScript, juntamente com algumas configurações e dependências pré-configuradas.
 
 ## Recursos
