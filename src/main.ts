@@ -1,5 +1,5 @@
-import env from "../env.js";
-import { start } from "./server.js";
+import env from "src/env.js";
+import { start } from "src/server.js";
 
 const { HOST_NAME, PORT } = env
 
